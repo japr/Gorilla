@@ -28,6 +28,7 @@
 		EE9838952375DA4B008747B9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838942375DA4B008747B9 /* API.swift */; };
 		EE9838972375DB42008747B9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838962375DB42008747B9 /* NetworkManager.swift */; };
 		EE9838992375DB57008747B9 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838982375DB57008747B9 /* NetworkInterface.swift */; };
+		EE98389C2375DD2A008747B9 /* RecipeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98389B2375DD2A008747B9 /* RecipeRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		EE9838942375DA4B008747B9 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		EE9838962375DB42008747B9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EE9838982375DB57008747B9 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		EE98389B2375DD2A008747B9 /* RecipeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				EE9838492375D118008747B9 /* AppDelegate.swift */,
+				EE98389A2375DD14008747B9 /* Repositories */,
 				EE98387C2375D6AB008747B9 /* Models */,
 				EE98386F2375D6AB008747B9 /* Modules */,
 				EE9838932375DA43008747B9 /* Network */,
@@ -285,6 +288,14 @@
 				EE9838982375DB57008747B9 /* NetworkInterface.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		EE98389A2375DD14008747B9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				EE98389B2375DD2A008747B9 /* RecipeRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -482,6 +493,7 @@
 				EE9838862375D829008747B9 /* ProductsWireframe.swift in Sources */,
 				EE98388C2375D869008747B9 /* ReceiptWireframe.swift in Sources */,
 				EE9838952375DA4B008747B9 /* API.swift in Sources */,
+				EE98389C2375DD2A008747B9 /* RecipeRepository.swift in Sources */,
 				EE9838882375D832008747B9 /* ProductsPresenter.swift in Sources */,
 				EE9838972375DB42008747B9 /* NetworkManager.swift in Sources */,
 				EE9838902375D891008747B9 /* ReceiptDatasource.swift in Sources */,
