@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EE98384A2375D118008747B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838492375D118008747B9 /* AppDelegate.swift */; };
-		EE98384E2375D118008747B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98384D2375D118008747B9 /* ViewController.swift */; };
 		EE9838512375D118008747B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE98384F2375D118008747B9 /* Main.storyboard */; };
 		EE9838532375D11D008747B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9838522375D11D008747B9 /* Assets.xcassets */; };
 		EE9838562375D11D008747B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9838542375D11D008747B9 /* LaunchScreen.storyboard */; };
 		EE9838612375D11D008747B9 /* GorilaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838602375D11D008747B9 /* GorilaTestTests.swift */; };
+		EE98387E2375D71A008747B9 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98387D2375D71A008747B9 /* Recipe.swift */; };
+		EE9838802375D7EB008747B9 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98387F2375D7EB008747B9 /* ProductsViewController.swift */; };
+		EE9838822375D80F008747B9 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838812375D80F008747B9 /* ItemCollectionViewCell.swift */; };
+		EE9838842375D819008747B9 /* ProductsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838832375D819008747B9 /* ProductsDataSource.swift */; };
+		EE9838862375D829008747B9 /* ProductsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838852375D829008747B9 /* ProductsWireframe.swift */; };
+		EE9838882375D832008747B9 /* ProductsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838872375D832008747B9 /* ProductsPresenter.swift */; };
+		EE98388A2375D84A008747B9 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838892375D84A008747B9 /* ReceiptViewController.swift */; };
+		EE98388C2375D869008747B9 /* ReceiptWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98388B2375D869008747B9 /* ReceiptWireframe.swift */; };
+		EE98388E2375D877008747B9 /* ReceiptPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98388D2375D877008747B9 /* ReceiptPresenter.swift */; };
+		EE9838902375D891008747B9 /* ReceiptDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98388F2375D891008747B9 /* ReceiptDatasource.swift */; };
+		EE9838922375D8A5008747B9 /* ReceiptCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838912375D8A5008747B9 /* ReceiptCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +38,6 @@
 /* Begin PBXFileReference section */
 		EE9838462375D118008747B9 /* GorilaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GorilaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9838492375D118008747B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE98384D2375D118008747B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE9838502375D118008747B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE9838522375D11D008747B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE9838552375D11D008747B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +45,17 @@
 		EE98385C2375D11D008747B9 /* GorilaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GorilaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9838602375D11D008747B9 /* GorilaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorilaTestTests.swift; sourceTree = "<group>"; };
 		EE9838622375D11D008747B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE98387D2375D71A008747B9 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EE98387F2375D7EB008747B9 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		EE9838812375D80F008747B9 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE9838832375D819008747B9 /* ProductsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsDataSource.swift; sourceTree = "<group>"; };
+		EE9838852375D829008747B9 /* ProductsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsWireframe.swift; sourceTree = "<group>"; };
+		EE9838872375D832008747B9 /* ProductsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsPresenter.swift; sourceTree = "<group>"; };
+		EE9838892375D84A008747B9 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		EE98388B2375D869008747B9 /* ReceiptWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptWireframe.swift; sourceTree = "<group>"; };
+		EE98388D2375D877008747B9 /* ReceiptPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptPresenter.swift; sourceTree = "<group>"; };
+		EE98388F2375D891008747B9 /* ReceiptDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDatasource.swift; sourceTree = "<group>"; };
+		EE9838912375D8A5008747B9 /* ReceiptCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				EE9838492375D118008747B9 /* AppDelegate.swift */,
-				EE98384D2375D118008747B9 /* ViewController.swift */,
+				EE98387C2375D6AB008747B9 /* Models */,
+				EE98386F2375D6AB008747B9 /* Modules */,
 				EE98384F2375D118008747B9 /* Main.storyboard */,
 				EE9838522375D11D008747B9 /* Assets.xcassets */,
 				EE9838542375D11D008747B9 /* LaunchScreen.storyboard */,
@@ -94,6 +115,127 @@
 				EE9838622375D11D008747B9 /* Info.plist */,
 			);
 			path = GorilaTestTests;
+			sourceTree = "<group>";
+		};
+		EE98386F2375D6AB008747B9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838702375D6AB008747B9 /* Products */,
+				EE9838762375D6AB008747B9 /* Receipt */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EE9838702375D6AB008747B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838712375D6AB008747B9 /* Presenter */,
+				EE9838722375D6AB008747B9 /* Wireframe */,
+				EE9838732375D6AB008747B9 /* View */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		EE9838712375D6AB008747B9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838872375D832008747B9 /* ProductsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EE9838722375D6AB008747B9 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838852375D829008747B9 /* ProductsWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EE9838732375D6AB008747B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838742375D6AB008747B9 /* DataSource */,
+				EE9838752375D6AB008747B9 /* Cells */,
+				EE98387F2375D7EB008747B9 /* ProductsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE9838742375D6AB008747B9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838832375D819008747B9 /* ProductsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		EE9838752375D6AB008747B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838812375D80F008747B9 /* ItemCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EE9838762375D6AB008747B9 /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838772375D6AB008747B9 /* Presenter */,
+				EE9838782375D6AB008747B9 /* Wireframe */,
+				EE9838792375D6AB008747B9 /* View */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
+		EE9838772375D6AB008747B9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE98388D2375D877008747B9 /* ReceiptPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EE9838782375D6AB008747B9 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EE98388B2375D869008747B9 /* ReceiptWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EE9838792375D6AB008747B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE98387A2375D6AB008747B9 /* DataSource */,
+				EE98387B2375D6AB008747B9 /* Cells */,
+				EE9838892375D84A008747B9 /* ReceiptViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE98387A2375D6AB008747B9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EE98388F2375D891008747B9 /* ReceiptDatasource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		EE98387B2375D6AB008747B9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EE9838912375D8A5008747B9 /* ReceiptCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EE98387C2375D6AB008747B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE98387D2375D71A008747B9 /* Recipe.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE98384E2375D118008747B9 /* ViewController.swift in Sources */,
+				EE9838822375D80F008747B9 /* ItemCollectionViewCell.swift in Sources */,
+				EE9838922375D8A5008747B9 /* ReceiptCollectionViewCell.swift in Sources */,
+				EE98387E2375D71A008747B9 /* Recipe.swift in Sources */,
+				EE9838842375D819008747B9 /* ProductsDataSource.swift in Sources */,
+				EE98388A2375D84A008747B9 /* ReceiptViewController.swift in Sources */,
+				EE9838802375D7EB008747B9 /* ProductsViewController.swift in Sources */,
+				EE9838862375D829008747B9 /* ProductsWireframe.swift in Sources */,
+				EE98388C2375D869008747B9 /* ReceiptWireframe.swift in Sources */,
+				EE9838882375D832008747B9 /* ProductsPresenter.swift in Sources */,
+				EE9838902375D891008747B9 /* ReceiptDatasource.swift in Sources */,
+				EE98388E2375D877008747B9 /* ReceiptPresenter.swift in Sources */,
 				EE98384A2375D118008747B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
