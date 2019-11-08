@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+protocol ProductsWireframeInterface {
+    func orderItems()
+}
+
+class ProductsWireframe {
+    
+}
+
+extension ProductsWireframe: ProductsWireframeInterface {
+    func orderItems() {
+        
+    }
+}

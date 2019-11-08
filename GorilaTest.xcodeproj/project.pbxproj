@@ -29,6 +29,8 @@
 		EE9838972375DB42008747B9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838962375DB42008747B9 /* NetworkManager.swift */; };
 		EE9838992375DB57008747B9 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838982375DB57008747B9 /* NetworkInterface.swift */; };
 		EE98389C2375DD2A008747B9 /* RecipeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98389B2375DD2A008747B9 /* RecipeRepository.swift */; };
+		EE98389F2375E35E008747B9 /* UICollectionViewCell+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98389E2375E35E008747B9 /* UICollectionViewCell+Additions.swift */; };
+		EE9838A12375EB41008747B9 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9838A02375EB41008747B9 /* UIColor+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		EE9838962375DB42008747B9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EE9838982375DB57008747B9 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
 		EE98389B2375DD2A008747B9 /* RecipeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRepository.swift; sourceTree = "<group>"; };
+		EE98389E2375E35E008747B9 /* UICollectionViewCell+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Additions.swift"; sourceTree = "<group>"; };
+		EE9838A02375EB41008747B9 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				EE98386F2375D6AB008747B9 /* Modules */,
 				EE9838932375DA43008747B9 /* Network */,
 				EE9838522375D11D008747B9 /* Assets.xcassets */,
+				EE98389D2375E34F008747B9 /* Utils */,
 				EE98384F2375D118008747B9 /* Main.storyboard */,
 				EE9838542375D11D008747B9 /* LaunchScreen.storyboard */,
 				EE9838572375D11D008747B9 /* Info.plist */,
@@ -296,6 +301,15 @@
 				EE98389B2375DD2A008747B9 /* RecipeRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		EE98389D2375E34F008747B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EE98389E2375E35E008747B9 /* UICollectionViewCell+Additions.swift */,
+				EE9838A02375EB41008747B9 /* UIColor+Additions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,12 +508,14 @@
 				EE98388C2375D869008747B9 /* ReceiptWireframe.swift in Sources */,
 				EE9838952375DA4B008747B9 /* API.swift in Sources */,
 				EE98389C2375DD2A008747B9 /* RecipeRepository.swift in Sources */,
+				EE98389F2375E35E008747B9 /* UICollectionViewCell+Additions.swift in Sources */,
 				EE9838882375D832008747B9 /* ProductsPresenter.swift in Sources */,
 				EE9838972375DB42008747B9 /* NetworkManager.swift in Sources */,
 				EE9838902375D891008747B9 /* ReceiptDatasource.swift in Sources */,
 				EE98388E2375D877008747B9 /* ReceiptPresenter.swift in Sources */,
 				EE9838992375DB57008747B9 /* NetworkInterface.swift in Sources */,
 				EE98384A2375D118008747B9 /* AppDelegate.swift in Sources */,
+				EE9838A12375EB41008747B9 /* UIColor+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

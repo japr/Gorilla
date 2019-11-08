@@ -10,21 +10,16 @@ import UIKit
 
 class ProductsViewController: UIViewController {
 
+    @IBOutlet var collectionView: UICollectionView!
+    @IBOutlet var orderButton: UIButton!
+    
+    var productsPresenter = ProductsPresenter()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        productsPresenter.registerInputs(collection: collectionView, orderButton: orderButton)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
