@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ProductsPresenter {
+class ProductsPresenter: NSObject {
     
     private var collectionView: UICollectionView!
     private let datasource: ProductsDatasource<Recipe, ItemCollectionViewCell>
@@ -43,8 +43,16 @@ class ProductsPresenter {
     func registerInputs(collection: UICollectionView, orderButton: UIButton) {
         collectionView = collection
         collectionView.dataSource = datasource
+        collectionView.delegate = self
         orderButton.target(forAction: #selector(orderButtonPressed),
                            withSender: nil)
         loadInformation()
+    }
+}
+
+extension ProductsPresenter: UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 180, height: 180)
     }
 }
